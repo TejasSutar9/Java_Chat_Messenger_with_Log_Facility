@@ -50,28 +50,35 @@ Java-Chat-Messenger-With-Log-Facility
 ## ⚙️How to Run the Project
 
 ### 1️⃣ Clone Repository
-```bash
+```
 git clone https://github.com/TejasSutar9/Java-Chat-Messenger-With-Log-Facility.git
+```
 2️⃣ Navigate to Source Directory
+```
 cd Java-Chat-Messenger-With-Log-Facility/src/chatmessenger
+```
 3️⃣ Compile the Program
+```
 javac Server.java
 javac Client.java
+```
 4️⃣ Run the Server
+```
 java Server
+```
 5️⃣ Run the Client (in another terminal)
+```
 java Client
+```
 
 ---
 
 ## 💬 How the Application Works
 
-- 🔹 The server starts and waits for a client connection on **port 2100**  
-- 🔹 The client connects to the server using a socket  
-- 🔹 Messages are exchanged using **input/output streams**  
-- 🔹 All messages are stored in `chat_log.txt`  
-- 🔹 Communication continues until the client ends the session  
-
+- The client connects to the server using a socket  
+- Messages are exchanged using **input/output streams**  
+- All messages are stored in `chat_log.txt`  
+- Communication continues until the client ends the session  
 ---
 
 ## 📝 Chat Log Example
