@@ -53,20 +53,20 @@ Java-Chat-Messenger-With-Log-Facility
 ```
 git clone https://github.com/TejasSutar9/Java-Chat-Messenger-With-Log-Facility.git
 ```
-2️⃣ Navigate to Source Directory
+### 2️⃣ Navigate to Source Directory
 ```
 cd Java-Chat-Messenger-With-Log-Facility/src/chatmessenger
 ```
-3️⃣ Compile the Program
+### 3️⃣ Compile the Program
 ```
 javac Server.java
 javac Client.java
 ```
-4️⃣ Run the Server
+### 4️⃣ Run the Server
 ```
 java Server
 ```
-5️⃣ Run the Client (in another terminal)
+### 5️⃣ Run the Client (in another terminal)
 ```
 java Client
 ```
